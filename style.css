@@ -1,0 +1,134 @@
+body{
+    text-align: center;
+}
+h4 {
+    display: flex;
+    flex-direction: row;
+ }
+ h4:before,
+ h4:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid rgb(166, 162, 162);
+    margin: auto;
+ } 
+.navigation{
+    padding-left: 13.5rem;
+    font-size:0.75rem;
+    border-color: black;
+}
+
+
+.name{
+    background-color:black;
+    padding: 9em 0;
+    height: 27em;
+    
+}
+#name{
+    color: white;
+    text-align: center;
+    font-size: medium;
+}
+.a-name{
+    font-size: 4rem;
+}
+.des-name{
+    font-size: 1.60rem;
+}
+.image{
+    float: right;
+}
+.sec-container{
+    margin: 6.25rem auto 6.25rem auto ;
+    width: 70%;
+    text-align: left;
+
+}
+.content{
+width: 50%;
+font-size:1.1rem;
+}
+.content-2{
+    margin-top: 7rem;
+}
+.buttons{
+    margin: 5rem 0 ;
+}
+.btn{
+    width:9.375rem
+    
+    
+}
+.wiki{
+    
+    background-color: rgb(207, 202, 202);
+    font-size: 1rem;
+    margin: 5px;
+}
+.yt{
+    background-color: rgba(243, 30, 6, 0.885);
+    color: white;
+    font-size: 1.1rem;
+    margin: 5px;
+}
+.amz{
+    background-color: rgb(255, 123, 0);
+  color: white;
+  font-size: 1.1rem;
+  margin: 5px;
+}
+.black-cont{
+    background-color: black;
+    color: white;
+    padding: 5rem 0;
+}
+.awards{
+    padding: 4rem 0;
+}
+.Achievments{
+    margin: 0 0 0 20rem;
+    padding: 1rem;
+   
+    text-align: left;
+}
+.column{
+    border: 1px solid rgb(164, 161, 161);
+    margin: 1rem;
+    width: 13.125rem;
+    height: 5em;
+    line-height: 4px;
+
+}
+.year{
+    text-align: left;
+    color: rgb(146, 144, 144);
+}
+.ach{
+    text-align: left;
+    color: grey;
+    font-size: 11px;
+    line-height: 10px;
+}
+.list-head{
+    margin: 3.5rem 0px;
+}
+.list{
+    text-align: left;
+}
+.bottom-container{
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+.footer-row{
+    margin: 0 7rem;
+    padding: 4rem 0;
+}
+.footer{
+    border-right-style: 1px solid white;
+    border-left-style: 1px solid white;
+}
+#bottom-link{
+    text-decoration: none;
+}
